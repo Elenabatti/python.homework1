@@ -108,3 +108,22 @@ some_dict = {1: 25}
 
 # print(list1.append(11))
 # print(list1)
+# 
+# with open('input.txt', 'r', encoding = 'utf-8') as file:
+    # text = file.read()
+    # for sym in text:
+    #     print(sym.strip())
+
+    # Вариант 2. советуют использовать
+    #  его т.к. не нагружает оперативную память
+    # while True:
+    #     line = file.readline()
+    #     if not line:
+    #         break
+    #     print(line.strip())
+# Вариант 3
+#  line_list = file.read().splitlines()
+# print(line_list)
+# with open('res.txt', 'a', encoding='utf-8') as file:
+#     for i in range(0,101):
+#         file.write(str(i) + '\n')
