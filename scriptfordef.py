@@ -40,7 +40,7 @@
 # for k in dictionary.values():
 #     print(k)
 
-some_dict = {1: 25}
+# some_dict = {1: 25}
 
 
 # Множeства
